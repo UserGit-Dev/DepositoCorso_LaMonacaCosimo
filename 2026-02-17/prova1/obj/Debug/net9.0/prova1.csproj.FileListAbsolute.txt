@@ -1,0 +1,14 @@
+C:\Users\Work\Desktop\corsoC#\2026-02-17\prova1\obj\Debug\net9.0\prova1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Work\Desktop\corsoC#\2026-02-17\prova1\obj\Debug\net9.0\prova1.AssemblyInfoInputs.cache
+C:\Users\Work\Desktop\corsoC#\2026-02-17\prova1\obj\Debug\net9.0\prova1.AssemblyInfo.cs
+C:\Users\Work\Desktop\corsoC#\2026-02-17\prova1\obj\Debug\net9.0\prova1.csproj.CoreCompileInputs.cache
+C:\Users\Work\Desktop\corsoC#\2026-02-17\prova1\bin\Debug\net9.0\prova1.exe
+C:\Users\Work\Desktop\corsoC#\2026-02-17\prova1\bin\Debug\net9.0\prova1.deps.json
+C:\Users\Work\Desktop\corsoC#\2026-02-17\prova1\bin\Debug\net9.0\prova1.runtimeconfig.json
+C:\Users\Work\Desktop\corsoC#\2026-02-17\prova1\bin\Debug\net9.0\prova1.dll
+C:\Users\Work\Desktop\corsoC#\2026-02-17\prova1\bin\Debug\net9.0\prova1.pdb
+C:\Users\Work\Desktop\corsoC#\2026-02-17\prova1\obj\Debug\net9.0\prova1.dll
+C:\Users\Work\Desktop\corsoC#\2026-02-17\prova1\obj\Debug\net9.0\refint\prova1.dll
+C:\Users\Work\Desktop\corsoC#\2026-02-17\prova1\obj\Debug\net9.0\prova1.pdb
+C:\Users\Work\Desktop\corsoC#\2026-02-17\prova1\obj\Debug\net9.0\prova1.genruntimeconfig.cache
+C:\Users\Work\Desktop\corsoC#\2026-02-17\prova1\obj\Debug\net9.0\ref\prova1.dll
