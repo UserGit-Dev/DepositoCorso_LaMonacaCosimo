@@ -1,0 +1,14 @@
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto2\bin\Debug\net9.0\progetto2.exe
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto2\bin\Debug\net9.0\progetto2.deps.json
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto2\bin\Debug\net9.0\progetto2.runtimeconfig.json
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto2\bin\Debug\net9.0\progetto2.dll
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto2\bin\Debug\net9.0\progetto2.pdb
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto2\obj\Debug\net9.0\progetto2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto2\obj\Debug\net9.0\progetto2.AssemblyInfoInputs.cache
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto2\obj\Debug\net9.0\progetto2.AssemblyInfo.cs
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto2\obj\Debug\net9.0\progetto2.csproj.CoreCompileInputs.cache
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto2\obj\Debug\net9.0\progetto2.dll
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto2\obj\Debug\net9.0\refint\progetto2.dll
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto2\obj\Debug\net9.0\progetto2.pdb
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto2\obj\Debug\net9.0\progetto2.genruntimeconfig.cache
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto2\obj\Debug\net9.0\ref\progetto2.dll
