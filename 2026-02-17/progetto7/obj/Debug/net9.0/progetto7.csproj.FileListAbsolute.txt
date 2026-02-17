@@ -1,0 +1,14 @@
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto7\bin\Debug\net9.0\progetto7.exe
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto7\bin\Debug\net9.0\progetto7.deps.json
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto7\bin\Debug\net9.0\progetto7.runtimeconfig.json
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto7\bin\Debug\net9.0\progetto7.dll
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto7\bin\Debug\net9.0\progetto7.pdb
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto7\obj\Debug\net9.0\progetto7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto7\obj\Debug\net9.0\progetto7.AssemblyInfoInputs.cache
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto7\obj\Debug\net9.0\progetto7.AssemblyInfo.cs
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto7\obj\Debug\net9.0\progetto7.csproj.CoreCompileInputs.cache
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto7\obj\Debug\net9.0\progetto7.dll
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto7\obj\Debug\net9.0\refint\progetto7.dll
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto7\obj\Debug\net9.0\progetto7.pdb
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto7\obj\Debug\net9.0\progetto7.genruntimeconfig.cache
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto7\obj\Debug\net9.0\ref\progetto7.dll
