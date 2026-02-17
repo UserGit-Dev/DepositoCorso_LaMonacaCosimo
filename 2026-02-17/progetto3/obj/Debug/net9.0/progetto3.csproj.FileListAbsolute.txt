@@ -1,0 +1,14 @@
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto3\bin\Debug\net9.0\progetto3.exe
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto3\bin\Debug\net9.0\progetto3.deps.json
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto3\bin\Debug\net9.0\progetto3.runtimeconfig.json
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto3\bin\Debug\net9.0\progetto3.dll
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto3\bin\Debug\net9.0\progetto3.pdb
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto3\obj\Debug\net9.0\progetto3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto3\obj\Debug\net9.0\progetto3.AssemblyInfoInputs.cache
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto3\obj\Debug\net9.0\progetto3.AssemblyInfo.cs
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto3\obj\Debug\net9.0\progetto3.csproj.CoreCompileInputs.cache
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto3\obj\Debug\net9.0\progetto3.dll
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto3\obj\Debug\net9.0\refint\progetto3.dll
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto3\obj\Debug\net9.0\progetto3.pdb
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto3\obj\Debug\net9.0\progetto3.genruntimeconfig.cache
+C:\Users\Work\Desktop\corsoC#\2026-02-17\progetto3\obj\Debug\net9.0\ref\progetto3.dll
