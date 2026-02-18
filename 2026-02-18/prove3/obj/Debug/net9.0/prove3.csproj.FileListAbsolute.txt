@@ -1,0 +1,14 @@
+C:\Users\Work\Desktop\corsoC#\2026-02-18\prove3\obj\Debug\net9.0\prove3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Work\Desktop\corsoC#\2026-02-18\prove3\obj\Debug\net9.0\prove3.AssemblyInfoInputs.cache
+C:\Users\Work\Desktop\corsoC#\2026-02-18\prove3\obj\Debug\net9.0\prove3.AssemblyInfo.cs
+C:\Users\Work\Desktop\corsoC#\2026-02-18\prove3\obj\Debug\net9.0\prove3.csproj.CoreCompileInputs.cache
+C:\Users\Work\Desktop\corsoC#\2026-02-18\prove3\bin\Debug\net9.0\prove3.exe
+C:\Users\Work\Desktop\corsoC#\2026-02-18\prove3\bin\Debug\net9.0\prove3.deps.json
+C:\Users\Work\Desktop\corsoC#\2026-02-18\prove3\bin\Debug\net9.0\prove3.runtimeconfig.json
+C:\Users\Work\Desktop\corsoC#\2026-02-18\prove3\bin\Debug\net9.0\prove3.dll
+C:\Users\Work\Desktop\corsoC#\2026-02-18\prove3\bin\Debug\net9.0\prove3.pdb
+C:\Users\Work\Desktop\corsoC#\2026-02-18\prove3\obj\Debug\net9.0\prove3.dll
+C:\Users\Work\Desktop\corsoC#\2026-02-18\prove3\obj\Debug\net9.0\refint\prove3.dll
+C:\Users\Work\Desktop\corsoC#\2026-02-18\prove3\obj\Debug\net9.0\prove3.pdb
+C:\Users\Work\Desktop\corsoC#\2026-02-18\prove3\obj\Debug\net9.0\prove3.genruntimeconfig.cache
+C:\Users\Work\Desktop\corsoC#\2026-02-18\prove3\obj\Debug\net9.0\ref\prove3.dll
