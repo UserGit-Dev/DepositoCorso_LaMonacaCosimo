@@ -58,7 +58,7 @@
         Console.Clear();
         Console.Write($"Lista numeri: ");
         Console.WriteLine(string.Join(", ", listaInt));
-        Console.WriteLine("\nPremi un qualsiasi tasto per continuare!");
+        Console.WriteLine("\nPremi un tasto per terminare...");
         Console.ReadKey(true);
         Console.Clear();
     }
@@ -120,7 +120,7 @@
         }
 
         Console.WriteLine("Lista interi (Pari): " + string.Join(", ", numPari));
-        Console.WriteLine("\nPremi un qualsiasi tasto per continuare!");
+        Console.WriteLine("\nPremi un tasto per terminare...");
         Console.ReadKey(true);
         Console.Clear();
     }
@@ -173,5 +173,6 @@
         Console.WriteLine("Lista interi (Ordinata): " + string.Join(", ", listaIntFiltrata));
         Console.WriteLine("\nPremi un tasto per terminare...");
         Console.ReadKey(true);
+        Console.Clear();
     }
 }
