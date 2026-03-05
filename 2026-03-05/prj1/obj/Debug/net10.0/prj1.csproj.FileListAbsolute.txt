@@ -1,0 +1,15 @@
+c:\Users\Work\Documents\GitHub\CorsoCSharp-Febbraio2026_LaMonacaCosimo\2026-03-05\prj1\bin\Debug\net10.0\prj1.exe
+c:\Users\Work\Documents\GitHub\CorsoCSharp-Febbraio2026_LaMonacaCosimo\2026-03-05\prj1\bin\Debug\net10.0\prj1.deps.json
+c:\Users\Work\Documents\GitHub\CorsoCSharp-Febbraio2026_LaMonacaCosimo\2026-03-05\prj1\bin\Debug\net10.0\prj1.runtimeconfig.json
+c:\Users\Work\Documents\GitHub\CorsoCSharp-Febbraio2026_LaMonacaCosimo\2026-03-05\prj1\bin\Debug\net10.0\prj1.dll
+c:\Users\Work\Documents\GitHub\CorsoCSharp-Febbraio2026_LaMonacaCosimo\2026-03-05\prj1\bin\Debug\net10.0\prj1.pdb
+c:\Users\Work\Documents\GitHub\CorsoCSharp-Febbraio2026_LaMonacaCosimo\2026-03-05\prj1\obj\Debug\net10.0\prj1.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Work\Documents\GitHub\CorsoCSharp-Febbraio2026_LaMonacaCosimo\2026-03-05\prj1\obj\Debug\net10.0\prj1.AssemblyInfoInputs.cache
+c:\Users\Work\Documents\GitHub\CorsoCSharp-Febbraio2026_LaMonacaCosimo\2026-03-05\prj1\obj\Debug\net10.0\prj1.AssemblyInfo.cs
+c:\Users\Work\Documents\GitHub\CorsoCSharp-Febbraio2026_LaMonacaCosimo\2026-03-05\prj1\obj\Debug\net10.0\prj1.csproj.CoreCompileInputs.cache
+c:\Users\Work\Documents\GitHub\CorsoCSharp-Febbraio2026_LaMonacaCosimo\2026-03-05\prj1\obj\Debug\net10.0\prj1.sourcelink.json
+c:\Users\Work\Documents\GitHub\CorsoCSharp-Febbraio2026_LaMonacaCosimo\2026-03-05\prj1\obj\Debug\net10.0\prj1.dll
+c:\Users\Work\Documents\GitHub\CorsoCSharp-Febbraio2026_LaMonacaCosimo\2026-03-05\prj1\obj\Debug\net10.0\refint\prj1.dll
+c:\Users\Work\Documents\GitHub\CorsoCSharp-Febbraio2026_LaMonacaCosimo\2026-03-05\prj1\obj\Debug\net10.0\prj1.pdb
+c:\Users\Work\Documents\GitHub\CorsoCSharp-Febbraio2026_LaMonacaCosimo\2026-03-05\prj1\obj\Debug\net10.0\prj1.genruntimeconfig.cache
+c:\Users\Work\Documents\GitHub\CorsoCSharp-Febbraio2026_LaMonacaCosimo\2026-03-05\prj1\obj\Debug\net10.0\ref\prj1.dll
