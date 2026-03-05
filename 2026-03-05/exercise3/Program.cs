@@ -30,19 +30,19 @@
                         Console.Clear();
                         Console.Write("Inserisci il nome del docente: ");
                         c1nomeDocente = Console.ReadLine()!;
-                    } while (string.IsNullOrEmpty(c1nomeDocente));
+                    } while (string.IsNullOrWhiteSpace(c1nomeDocente));
                     
                     do {
                         Console.Clear();
                         Console.Write("Inserisci la materia: ");
                         c1materia = Console.ReadLine()!;
-                    } while (string.IsNullOrEmpty(c1materia));
+                    } while (string.IsNullOrWhiteSpace(c1materia));
 
                     do {
                         Console.Clear();
                         Console.Write("Inserisci titolo: ");
                         c1titolo = Console.ReadLine()!;
-                    } while (string.IsNullOrEmpty(c1titolo));
+                    } while (string.IsNullOrWhiteSpace(c1titolo));
                     
                     do {
                         Console.Clear();
@@ -53,7 +53,7 @@
                         Console.Clear();
                         Console.Write("Inserisci aula: ");
                         c1aula = Console.ReadLine()!;
-                    } while (string.IsNullOrEmpty(c1aula));
+                    } while (string.IsNullOrWhiteSpace(c1aula));
                     
                     do {
                         Console.Clear();
@@ -77,19 +77,19 @@
                         Console.Clear();
                         Console.Write("Inserisci il nome del docente: ");
                         c2nomeDocente = Console.ReadLine()!;
-                    } while (string.IsNullOrEmpty(c2nomeDocente));
+                    } while (string.IsNullOrWhiteSpace(c2nomeDocente));
                     
                     do {
                         Console.Clear();
                         Console.Write("Inserisci la materia: ");
                         c2materia = Console.ReadLine()!;
-                    } while (string.IsNullOrEmpty(c2materia));
+                    } while (string.IsNullOrWhiteSpace(c2materia));
 
                     do {
                         Console.Clear();
                         Console.Write("Inserisci titolo: ");
                         c2titolo = Console.ReadLine()!;
-                    } while (string.IsNullOrEmpty(c2titolo));
+                    } while (string.IsNullOrWhiteSpace(c2titolo));
                     
                     do {
                         Console.Clear();
@@ -100,13 +100,13 @@
                         Console.Clear();
                         Console.Write("Inserisci piattaforma: ");
                         c2piattaforma = Console.ReadLine()!;
-                    } while (string.IsNullOrEmpty(c2piattaforma));
+                    } while (string.IsNullOrWhiteSpace(c2piattaforma));
                     
                     do {
                         Console.Clear();
                         Console.Write("Inserisci numero posti: ");
                         c2linkAccesso = Console.ReadLine()!;
-                    } while (string.IsNullOrEmpty(c2linkAccesso));
+                    } while (string.IsNullOrWhiteSpace(c2linkAccesso));
 
                     listCorso.Add(new CorsoOnline(c2nomeDocente, c2materia, c2titolo, c2durataOre, c2piattaforma, c2linkAccesso));
                     Console.WriteLine("Corso online aggiunto con successo.");
