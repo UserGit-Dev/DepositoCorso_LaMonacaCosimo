@@ -118,8 +118,7 @@
                         Console.Clear();
                         Console.WriteLine("Lista corsi attualmente vuota."); 
                         ContinueAndClear(); 
-                    }
-                    else {
+                    } else {
                         Console.WriteLine(new string('-', 50));
                         foreach(Corso corso in listCorso) {                         
                             corso.ErogaCorso();
