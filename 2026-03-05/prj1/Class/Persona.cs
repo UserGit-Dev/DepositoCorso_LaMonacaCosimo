@@ -1,4 +1,4 @@
-class Persona : IFormatSpacing
+class Persona : PrintAndSpacingBase
 {
     private string _nome = string.Empty;
     private string _cognome = string.Empty;
@@ -19,14 +19,5 @@ class Persona : IFormatSpacing
     {
         return $"Nome: {Nome}{TxtSpacing()}Cognome: {Cognome}{TxtSpacing()}" 
         + $"Codice Fiscale: {CodiceFiscale}{TxtSpacing()}DataNascita: {DataNascita}{TxtSpacing()}";
-    }
-
-    // Altro
-    public string TxtSpacing()
-    {
-        byte leftPad = 5;
-        byte rightPad = 5;
-        char separator = '|';
-        return $"{new string(' ', leftPad)}{separator}{new string(' ', rightPad)}";
     }
 }

@@ -1,4 +1,0 @@
-interface IFormatSpacing
-{
-    string TxtSpacing();
-}
