@@ -2,7 +2,7 @@
 {
     static List<Dipendente> listDipendente = [
         new Dipendente("DEBUG", "NULL", "NULL", DateOnly.Parse("2000-01-01"), 1, TipoFigura.Amministratore, "1", "1", "NULL", 0),
-        new Dipendente("Francesco", "Landi", "FRNLND00", DateOnly.Parse("2000-12-12"), 1, TipoFigura.Dipendente, "2", "2", "Mattina", 1500),
+        new Dipendente("Francesco", "Landi", "FRNLND00", DateOnly.Parse("2000-12-12"), 2, TipoFigura.Dipendente, "2", "2", "Mattina", 1500),
     ];
 
     static Dictionary<long, Queue<string>> dLog = [];
@@ -147,8 +147,28 @@
 
             switch (scelta)
             {
-
+                case 1:
+                    // Incompleto.
+                    Console.Clear();
+                    Console.WriteLine("Profilo modificato con successo.");
+                    AddLog(dipendente, TipoLog.LetturaInfoPersonali);
+                    ContinueAndClear();
+                    break;
+                case 2:
+                    Console.Clear();
+                    foreach (Dipendente info in listDipendente) { if(info.Id == dipendente.Id) { Console.WriteLine(info.ToPrintAnagraficaCompleta()); } }
+                    AddLog(dipendente, TipoLog.LetturaInfoPersonali);
+                    ContinueAndClear();
+                    break;
+                case 3:
+                    Console.Clear();
+                    if (!dLog.TryGetValue(dipendente.Id, out var coda) || coda.Count is 0) { Console.WriteLine("Storico log attualmente vuoto."); }
+                    else { foreach(string log in coda) { Console.WriteLine(log); } }
+                    AddLog(dipendente, TipoLog.LetturaLog);
+                    ContinueAndClear();
+                    break;
                 case 4:
+                    Console.Clear();
                     flag = false;
                     Logout(dipendente);
                     ContinueAndClear();
@@ -170,8 +190,8 @@
                 Console.Clear();
                 Console.WriteLine(new string('*', 5) + " TERMINALE " + new string('*', 5));
                 Console.WriteLine(dipendente.ToPrintToDash());
-                Console.WriteLine("\nSeleziona:\n1. Aggiungi dipendente\n2. Visualizza (Dipendenti)\n3. Visualizza (Log)\n4. (Logout)");
-            } while (!int.TryParse(Console.ReadLine()!, out scelta) || scelta is < 1 or > 4);
+                Console.WriteLine("\nSeleziona:\n1. Aggiungi dipendente\n2. Visualizza (Profilo)\n3. Visualizza (Dipendenti)\n4. Visualizza (Log)\n5. (Logout)");
+            } while (!int.TryParse(Console.ReadLine()!, out scelta) || scelta is < 1 or > 5);
 
             switch (scelta)
             {
@@ -233,9 +253,16 @@
                     } while (!decimal.TryParse(Console.ReadLine(), out salario) || salario < 0);
                     listDipendente.Add(new Dipendente(nome, cognome, codiceFiscale, dataNascita, id, ruolo, badgeCode, password, turno, salario));
                     Console.WriteLine("Dipendente aggiunto con successo.");
+                    AddLog(dipendente, TipoLog.CreazioneDipendente);
                     ContinueAndClear();
                     break;
                 case 2:
+                    Console.Clear();
+                    foreach (Dipendente info in listDipendente) { if(info.Id == dipendente.Id) { Console.WriteLine(info.ToPrintAnagraficaCompleta()); } }
+                    AddLog(dipendente, TipoLog.LetturaInfoPersonali);
+                    ContinueAndClear();
+                    break;
+                case 3:
                     int c2scelta;
                     
                     do {
@@ -251,6 +278,7 @@
                             {
                                 Console.WriteLine($"{i+1}: {listDipendente[i].ToPrintAnagraficaPersona()}");
                             }
+                            AddLog(dipendente, TipoLog.LetturaInfoPersone);
                             ContinueAndClear();
                             break;
                         case 2:
@@ -259,6 +287,7 @@
                             {
                                 Console.WriteLine($"{i+1}: {listDipendente[i].ToPrintAnagraficaDipendente()}");
                             }
+                            AddLog(dipendente, TipoLog.LetturaInfoDipendenti);
                             ContinueAndClear();
                             break;
                         case 3:
@@ -267,6 +296,7 @@
                             {
                                 Console.WriteLine($"{i+1}: {listDipendente[i].ToPrintAnagraficaCompleta()}");
                             }
+                            AddLog(dipendente, TipoLog.LetturaInfoPersoneAndDipendenti);
                             ContinueAndClear();
                             break;
                         case 4:
@@ -276,17 +306,18 @@
                             break;
                     }
                     break;
-                case 3:
+                case 4:
                     Console.Clear();
                     if (!dLog.TryGetValue(dipendente.Id, out var coda) || coda.Count is 0) { Console.WriteLine("Storico log attualmente vuoto."); }
                     else { foreach(string log in coda) { Console.WriteLine(log); } }
-                    AddLog(dipendente, TipoLog.Logout);
+                    AddLog(dipendente, TipoLog.LetturaLog);
                     ContinueAndClear();
                     break;
-                case 4:
+                case 5:
+                    Console.Clear();
                     flag = false;
-                    Logout(dipendente);
                     AddLog(dipendente, TipoLog.Logout);
+                    Logout(dipendente);
                     break;
             }
         }
@@ -310,7 +341,7 @@
             dLog[dipendente.Id] = coda;
         }
 
-        if(coda.Count >= 30) { coda.Dequeue(); }
+        if(coda.Count >= 15) { coda.Dequeue(); }
 
         switch (type)
         {

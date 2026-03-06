@@ -37,7 +37,7 @@ class Persona
     }
     public void LastLogoutUpdate() 
     {
-        ModifiedAt = DateTime.UtcNow;
+        LastLogout = DateTime.UtcNow;
     }
 
     public string ToPrintAnagraficaPersona()
