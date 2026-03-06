@@ -1,0 +1,15 @@
+C:\Users\Work\Documents\GitHub\CorsoCSharp-Febbraio2026_LaMonacaCosimo\2026-03-06\test_valutazione\obj\Debug\net10.0\test_valutazione.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Work\Documents\GitHub\CorsoCSharp-Febbraio2026_LaMonacaCosimo\2026-03-06\test_valutazione\obj\Debug\net10.0\test_valutazione.AssemblyInfoInputs.cache
+C:\Users\Work\Documents\GitHub\CorsoCSharp-Febbraio2026_LaMonacaCosimo\2026-03-06\test_valutazione\obj\Debug\net10.0\test_valutazione.AssemblyInfo.cs
+C:\Users\Work\Documents\GitHub\CorsoCSharp-Febbraio2026_LaMonacaCosimo\2026-03-06\test_valutazione\obj\Debug\net10.0\test_valutazione.csproj.CoreCompileInputs.cache
+C:\Users\Work\Documents\GitHub\CorsoCSharp-Febbraio2026_LaMonacaCosimo\2026-03-06\test_valutazione\obj\Debug\net10.0\test_valutazione.sourcelink.json
+C:\Users\Work\Documents\GitHub\CorsoCSharp-Febbraio2026_LaMonacaCosimo\2026-03-06\test_valutazione\bin\Debug\net10.0\test_valutazione.exe
+C:\Users\Work\Documents\GitHub\CorsoCSharp-Febbraio2026_LaMonacaCosimo\2026-03-06\test_valutazione\bin\Debug\net10.0\test_valutazione.deps.json
+C:\Users\Work\Documents\GitHub\CorsoCSharp-Febbraio2026_LaMonacaCosimo\2026-03-06\test_valutazione\bin\Debug\net10.0\test_valutazione.runtimeconfig.json
+C:\Users\Work\Documents\GitHub\CorsoCSharp-Febbraio2026_LaMonacaCosimo\2026-03-06\test_valutazione\bin\Debug\net10.0\test_valutazione.dll
+C:\Users\Work\Documents\GitHub\CorsoCSharp-Febbraio2026_LaMonacaCosimo\2026-03-06\test_valutazione\bin\Debug\net10.0\test_valutazione.pdb
+C:\Users\Work\Documents\GitHub\CorsoCSharp-Febbraio2026_LaMonacaCosimo\2026-03-06\test_valutazione\obj\Debug\net10.0\test_valutazione.dll
+C:\Users\Work\Documents\GitHub\CorsoCSharp-Febbraio2026_LaMonacaCosimo\2026-03-06\test_valutazione\obj\Debug\net10.0\refint\test_valutazione.dll
+C:\Users\Work\Documents\GitHub\CorsoCSharp-Febbraio2026_LaMonacaCosimo\2026-03-06\test_valutazione\obj\Debug\net10.0\test_valutazione.pdb
+C:\Users\Work\Documents\GitHub\CorsoCSharp-Febbraio2026_LaMonacaCosimo\2026-03-06\test_valutazione\obj\Debug\net10.0\test_valutazione.genruntimeconfig.cache
+C:\Users\Work\Documents\GitHub\CorsoCSharp-Febbraio2026_LaMonacaCosimo\2026-03-06\test_valutazione\obj\Debug\net10.0\ref\test_valutazione.dll
