@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("provaDecorator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ded0162bb889eabb0e6123449b65c5bd20769e7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7ea7634de179d89b2a926cf6ce88ac236db41e8")]
 [assembly: System.Reflection.AssemblyProductAttribute("provaDecorator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("provaDecorator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
