@@ -50,19 +50,21 @@
 #region // Da commentare...
     public static void Ordina(int scelta)
     {
+        // Istanzio (ma non inizializzo) due oggetti
         IPiatto? piatto;
-        Chef chef;
+        Chef chef; // Strategy pattern (definirò successivamente in che modo cucinerà il piatto)
 
         // Memorizzo stringa effettiva dell'ordine selezionato per poi passarla al metodo factory.
         string sceltaEffettiva = scelta switch { 1 => "Pizza", 2 => "Hamburger", 3 => "Insalata", _ => string.Empty };
         // Controllo se la scelta effettiva non sia null o con spazi bianchi. Se così fosse, avvisa dell'errore ed esci.
         if (string.IsNullOrWhiteSpace(sceltaEffettiva)) { Console.Clear(); Console.WriteLine("Errore durante la selezone del piatto."); return; }
         
-        // Procedo a creare il piatto effettivo.
+        // Procedo a creare il piatto effettivo attraverso un oggetto factory.
         piatto = PiattoFactory.CreaPiatto(sceltaEffettiva);
         // Se al ritorno del metodo la variabile 'piatto' è 'null', avvisa dell'errore ed esci.
         if (piatto is null) { Console.WriteLine("Errore durante il processamento della richiesta."); return; }
 
+        // Chiedo se vuole aggiungere altri ingredienti
         ConsoleKeyInfo sceltaExtra;
         do {
             Console.Clear();
@@ -71,8 +73,10 @@
             sceltaExtra = Console.ReadKey(true)!;
         } while (sceltaExtra.Key is not (ConsoleKey.S or ConsoleKey.N));
 
+        // Se si...
         if (sceltaExtra.Key is ConsoleKey.S)
-        {
+        {   
+            // Ciclo fino a quando il cliente non vorrà più
             bool flag = true;
             while (flag) {
                 ConsoleKeyInfo tipoIngrediente;
@@ -91,12 +95,14 @@
                     _ => piatto
                 };
                 
+                // Qui chiedo effettivamente se desidera aggiungere altro
                 Console.Clear();
                 Console.WriteLine("Ingrediente aggiunto! Vuoi continuare ad aggiungere? (S/N)");
                 if (Console.ReadKey(true).Key is ConsoleKey.N) flag = false;
             }
         }
         
+        // Alla fine, chiedo il tipo di cottura
         ConsoleKeyInfo tipoCottura;
         do {
             Console.Clear();
@@ -104,16 +110,19 @@
             tipoCottura = Console.ReadKey(true)!;
         } while (tipoCottura.Key is not (ConsoleKey.D1 or ConsoleKey.D2 or ConsoleKey.D3));
 
+        // In base al tipo di input, associo il tipo di strategia allo chef
         if(tipoCottura.Key is ConsoleKey.D1) chef = new Chef(new Fritto());
         else if(tipoCottura.Key is ConsoleKey.D2) chef = new Chef(new AlForno());
         else if(tipoCottura.Key is ConsoleKey.D3) chef = new Chef(new AllaGriglia());
         else { Console.WriteLine("Errore durante la selezione della frittura."); return; }
 
         Console.Clear();
+        // Chiamo i metodi 'decorati' di 'piatto'
         Console.WriteLine(piatto.Descrizione() + " => " + piatto.Prepara());
         chef.PreparaPiatto();
     }
 
+    // Metodo per gener
     public static void SeedObs()
     {
         Subject.Instance.Attach(new Observer("Aldo"));
@@ -121,6 +130,7 @@
         Subject.Instance.Attach(new Observer("Giacomo"));
     }
 
+    // Metodo per chiedere l'utente di proseguire assieme alla pulizia della console
     public static void ContinueAndClear()
     {
         Console.WriteLine("\nPremere un tasto per continuare...");
